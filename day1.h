@@ -4,7 +4,7 @@
 
 #ifndef ADVENT2020_CHALLENGE_DAY1_H
 #define ADVENT2020_CHALLENGE_DAY1_H
-# small change
+# small change 1
 // prototype:
 int findValue();
 
