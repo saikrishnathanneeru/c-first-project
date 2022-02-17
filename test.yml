@@ -1,0 +1,8 @@
+---
+- name: playbook to run test commands
+  hosts: all
+  become: true
+  tasks:
+    - name: install http
+      yum:
+
