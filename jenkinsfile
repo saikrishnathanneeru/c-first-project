@@ -7,12 +7,6 @@ pipeline {
                 echo 'Hello World'
             }
         }
-
-        stage("Build/Test project"){
-        dir ('build') {
-          sh "cmake ../ && cmake --build ."
-        }
-    }
     }
 }
 
